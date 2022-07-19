@@ -11,6 +11,82 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Browser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frameworks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Front-end_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operating_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#React"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCP/IP_Client"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#testProperty"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Browser"/>
+        <Class IRI="#User_Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frameworks"/>
+        <Class IRI="#Front-end_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operating_System"/>
+        <Class IRI="#Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Presentation"/>
+        <Class IRI="#Frameworks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#React"/>
+        <Class IRI="#Presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redux"/>
+        <Class IRI="#State_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State_Management"/>
+        <Class IRI="#Frameworks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Interface"/>
+        <Class IRI="#Operating_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCP/IP_Client"/>
+        <Class IRI="#Operating_System"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#testProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
 </Ontology>
 
 
