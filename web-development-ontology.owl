@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/kirill/ontologies/web-development-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/kirill/ontologies/web-development-ontology"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -54,6 +55,18 @@
         <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910"/>
     </Declaration>
     <Declaration>
@@ -76,6 +89,10 @@
     <SubClassOf>
         <Class IRI="#Frameworks"/>
         <Class IRI="#Front-end_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Front-end_Development"/>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Operating_System"/>
@@ -113,10 +130,42 @@
         <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
         <Class IRI="#React"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
+        <Class IRI="#User_Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
+        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691"/>
+        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
+    </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712</IRI>
         <Literal xml:lang="en">API</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845</IRI>
+        <Literal xml:lang="en">CLI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec</IRI>
+        <Literal xml:lang="en">Terminal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691</IRI>
+        <Literal xml:lang="en">Shell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973</IRI>
+        <Literal xml:lang="en">Development</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -127,6 +176,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de</IRI>
         <Literal xml:lang="en">relatesTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>One thing that I would like to see out of the box for Protege is the ability to create hierarchies not just based on the class relationships</Literal>
     </AnnotationAssertion>
 </Ontology>
 
