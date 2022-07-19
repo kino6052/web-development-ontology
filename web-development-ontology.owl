@@ -12,6 +12,9 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#API"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Browser"/>
     </Declaration>
     <Declaration>
@@ -36,6 +39,9 @@
         <Class IRI="#Redux"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Redux_Toolkit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#State_Management"/>
     </Declaration>
     <Declaration>
@@ -45,8 +51,24 @@
         <Class IRI="#TCP/IP_Client"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#testProperty"/>
+        <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
     </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#React"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Redux"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#API"/>
+        <Class IRI="#Redux_Toolkit"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Browser"/>
         <Class IRI="#User_Interface"/>
@@ -72,6 +94,10 @@
         <Class IRI="#State_Management"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Redux_Toolkit"/>
+        <Class IRI="#Redux"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#State_Management"/>
         <Class IRI="#Frameworks"/>
     </SubClassOf>
@@ -83,10 +109,25 @@
         <Class IRI="#TCP/IP_Client"/>
         <Class IRI="#Operating_System"/>
     </SubClassOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#testProperty"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
+        <Class IRI="#React"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712</IRI>
+        <Literal xml:lang="en">API</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910</IRI>
+        <Literal xml:lang="en">includes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de</IRI>
+        <Literal xml:lang="en">relatesTo</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
