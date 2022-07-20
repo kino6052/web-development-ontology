@@ -52,19 +52,49 @@
         <Class IRI="#TCP/IP_Client"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c"/>
     </Declaration>
     <Declaration>
         <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4"/>
     </Declaration>
     <Declaration>
         <Class IRI="/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691"/>
     </Declaration>
     <Declaration>
         <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910"/>
@@ -103,6 +133,10 @@
         <Class IRI="#Frameworks"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Program"/>
+        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#React"/>
         <Class IRI="#Presentation"/>
     </SubClassOf>
@@ -127,25 +161,91 @@
         <Class IRI="#Operating_System"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
         <Class IRI="#React"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454"/>
+        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
         <Class IRI="#User_Interface"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
         <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691"/>
         <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e</IRI>
+        <Literal xml:lang="en">Console</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712</IRI>
         <Literal xml:lang="en">API</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729</IRI>
+        <Literal xml:lang="en">Contents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121</IRI>
+        <Literal xml:lang="en">Async Hooks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454</IRI>
+        <Literal xml:lang="en">v8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d</IRI>
+        <Literal xml:lang="en">Performance Hooks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c</IRI>
+        <Literal xml:lang="en">Debugger</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -154,8 +254,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820</IRI>
+        <Literal xml:lang="en">Debugging/Metric Tools</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec</IRI>
         <Literal xml:lang="en">Terminal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34</IRI>
+        <Literal xml:lang="en">Back-end Development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4</IRI>
+        <Literal xml:lang="en">Inspector</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -166,6 +281,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973</IRI>
         <Literal xml:lang="en">Development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0</IRI>
+        <Literal xml:lang="en">Entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
