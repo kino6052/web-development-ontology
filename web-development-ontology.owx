@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kirill/ontologies/web-development-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kirill/ontologies/web-development-ontology">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7uEQEwFeySaK8gelOQxywy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8MhvsT10WFAiREgcxbHdGK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8tZ7nMH48OGxyMnYF1kPsV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9B6YAGQUXHbm9cPQKzuxtE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9jFqnrCgLc2Pw0mbE5Fnph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9uMq0N0FQ9w3vqzzWUBUjO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBEQGqUIpfOxmgSvqRCEecT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBNZJ5DNznUu03oiBoRcZwK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDRNyt7iOJDX9wkLMOedLZE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDkSDWJZEnAMkTefsRfyGFt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDn0OcS5244l7GCGIAKpLoN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDnHkPIVEQwPAV3PjGOI7Zo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RTFOmeJGcRLDvVVM3T4MnK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RVFVWSMmh1OlsFsEl3sqso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RWR94uqiRZ6hbezzYuGntw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Browser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frameworks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Front-end_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operating_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#React"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redux_Toolkit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCP/IP_Client"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#React"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Redux"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl"/>
+        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7uEQEwFeySaK8gelOQxywy"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8MhvsT10WFAiREgcxbHdGK"/>
+        <Class IRI="http://webprotege.stanford.edu/RDkSDWJZEnAMkTefsRfyGFt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8tZ7nMH48OGxyMnYF1kPsV"/>
+        <Class IRI="#State_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9B6YAGQUXHbm9cPQKzuxtE"/>
+        <Class IRI="http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9jFqnrCgLc2Pw0mbE5Fnph"/>
+        <Class IRI="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9uMq0N0FQ9w3vqzzWUBUjO"/>
+        <Class IRI="http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA"/>
+        <Class IRI="http://webprotege.stanford.edu/RVFVWSMmh1OlsFsEl3sqso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBEQGqUIpfOxmgSvqRCEecT"/>
+        <Class IRI="#State_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBNZJ5DNznUu03oiBoRcZwK"/>
+        <Class IRI="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV"/>
+        <Class IRI="http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW"/>
+        <Class IRI="#Browser"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr"/>
+        <Class IRI="http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr"/>
+        <Class IRI="http://webprotege.stanford.edu/RWR94uqiRZ6hbezzYuGntw"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDRNyt7iOJDX9wkLMOedLZE"/>
+        <Class IRI="http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDkSDWJZEnAMkTefsRfyGFt"/>
+        <Class IRI="http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDn0OcS5244l7GCGIAKpLoN"/>
+        <Class IRI="#State_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDnHkPIVEQwPAV3PjGOI7Zo"/>
+        <Class IRI="http://webprotege.stanford.edu/R9uMq0N0FQ9w3vqzzWUBUjO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDnHkPIVEQwPAV3PjGOI7Zo"/>
+        <Class IRI="http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM"/>
+        <Class IRI="http://webprotege.stanford.edu/R7uEQEwFeySaK8gelOQxywy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RTFOmeJGcRLDvVVM3T4MnK"/>
+        <Class IRI="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RVFVWSMmh1OlsFsEl3sqso"/>
+        <Class IRI="#Front-end_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RWR94uqiRZ6hbezzYuGntw"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#API"/>
+        <Class IRI="#Redux_Toolkit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Browser"/>
+        <Class IRI="#User_Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frameworks"/>
+        <Class IRI="#Front-end_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Front-end_Development"/>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operating_System"/>
+        <Class IRI="#Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Presentation"/>
+        <Class IRI="#Frameworks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program"/>
+        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#React"/>
+        <Class IRI="#Presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redux"/>
+        <Class IRI="#State_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redux_Toolkit"/>
+        <Class IRI="#Redux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State_Management"/>
+        <Class IRI="#Frameworks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Interface"/>
+        <Class IRI="#Operating_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCP/IP_Client"/>
+        <Class IRI="#Operating_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
+        <Class IRI="#React"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454"/>
+        <Class IRI="http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454"/>
+        <Class IRI="http://webprotege.stanford.edu/RDnHkPIVEQwPAV3PjGOI7Zo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
+        <Class IRI="#User_Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+        <Class IRI="http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
+        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4"/>
+        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691"/>
+        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl</IRI>
+        <Literal xml:lang="en">Node.js</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7uEQEwFeySaK8gelOQxywy</IRI>
+        <Literal xml:lang="en">Web APIs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8MhvsT10WFAiREgcxbHdGK</IRI>
+        <Literal xml:lang="en">Rust</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8tZ7nMH48OGxyMnYF1kPsV</IRI>
+        <Literal xml:lang="en">Effector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R9B6YAGQUXHbm9cPQKzuxtE</IRI>
+        <IRI>https://erik-engheim.medium.com/microprocessor-games-ad19e4aa2019</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9B6YAGQUXHbm9cPQKzuxtE</IRI>
+        <Literal xml:lang="en">Assembly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9jFqnrCgLc2Pw0mbE5Fnph</IRI>
+        <Literal xml:lang="en">AOM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9uMq0N0FQ9w3vqzzWUBUjO</IRI>
+        <Literal xml:lang="en">Interpreted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA</IRI>
+        <Literal xml:lang="en">General Purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBEQGqUIpfOxmgSvqRCEecT</IRI>
+        <Literal xml:lang="en">MobX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBNZJ5DNznUu03oiBoRcZwK</IRI>
+        <Literal xml:lang="en">CSSOM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV</IRI>
+        <Literal xml:lang="en">Basic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW</IRI>
+        <Literal xml:lang="en">Web Platform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr</IRI>
+        <Literal xml:lang="en">Bytecode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDRNyt7iOJDX9wkLMOedLZE</IRI>
+        <Literal>Web Assembly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDkSDWJZEnAMkTefsRfyGFt</IRI>
+        <Literal xml:lang="en">Compiled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDn0OcS5244l7GCGIAKpLoN</IRI>
+        <Literal xml:lang="en">RxJS Subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDnHkPIVEQwPAV3PjGOI7Zo</IRI>
+        <Literal xml:lang="en">JavaScript</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM</IRI>
+        <Literal xml:lang="en">Object Models</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RTFOmeJGcRLDvVVM3T4MnK</IRI>
+        <Literal xml:lang="en">DOM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RVFVWSMmh1OlsFsEl3sqso</IRI>
+        <Literal xml:lang="en">Languages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RWR94uqiRZ6hbezzYuGntw</IRI>
+        <Literal xml:lang="en">Virtual Machine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e</IRI>
+        <Literal xml:lang="en">Console</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712</IRI>
+        <Literal xml:lang="en">API</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729</IRI>
+        <Literal xml:lang="en">Contents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121</IRI>
+        <Literal xml:lang="en">Async Hooks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454</IRI>
+        <Literal xml:lang="en">v8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d</IRI>
+        <Literal xml:lang="en">Performance Hooks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c</IRI>
+        <Literal xml:lang="en">Debugger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845</IRI>
+        <Literal xml:lang="en">CLI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820</IRI>
+        <Literal xml:lang="en">Debugging/Metric Tools</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec</IRI>
+        <Literal xml:lang="en">Terminal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34</IRI>
+        <Literal xml:lang="en">Back-end Development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4</IRI>
+        <Literal xml:lang="en">Inspector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691</IRI>
+        <Literal xml:lang="en">Shell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973</IRI>
+        <Literal xml:lang="en">Development</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910</IRI>
+        <Literal xml:lang="en">includes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de</IRI>
+        <Literal xml:lang="en">relatesTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>One thing that I would like to see out of the box for Protege is the ability to create hierarchies not just based on the class relationships</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

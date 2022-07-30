@@ -58,6 +58,12 @@
         <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/OWLClass_3d42854e_870d_41c9_a99a_e5db829b0eaa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_48291bf3_6063_4bc5_9546_65c890f574ab"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
     </Declaration>
     <Declaration>
@@ -68,6 +74,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/OWLClass_77a5ddfa_8339_46fe_88ae_841c6f44a39c"/>
     </Declaration>
     <Declaration>
         <Class IRI="/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c"/>
@@ -97,6 +106,9 @@
         <Class IRI="/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/OWLClass_f1adc5a0_f440_4e3b_b7b4_9bbcf829a94d"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910"/>
     </Declaration>
     <Declaration>
@@ -108,6 +120,14 @@
     <Declaration>
         <NamedIndividual IRI="#Redux"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Program"/>
+        <Class IRI="/OWLClass_48291bf3_6063_4bc5_9546_65c890f574ab"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/OWLClass_77a5ddfa_8339_46fe_88ae_841c6f44a39c"/>
+        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#API"/>
         <Class IRI="#Redux_Toolkit"/>
@@ -169,6 +189,14 @@
         <Class IRI="#React"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/OWLClass_3d42854e_870d_41c9_a99a_e5db829b0eaa"/>
+        <Class IRI="/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_48291bf3_6063_4bc5_9546_65c890f574ab"/>
+        <Class IRI="/OWLClass_f1adc5a0_f440_4e3b_b7b4_9bbcf829a94d"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121"/>
         <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
     </SubClassOf>
@@ -179,6 +207,10 @@
     <SubClassOf>
         <Class IRI="/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d"/>
         <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_77a5ddfa_8339_46fe_88ae_841c6f44a39c"/>
+        <Class IRI="/OWLClass_3d42854e_870d_41c9_a99a_e5db829b0eaa"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c"/>
@@ -212,6 +244,10 @@
         <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
         <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/OWLClass_f1adc5a0_f440_4e3b_b7b4_9bbcf829a94d"/>
+        <Class IRI="/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0"/>
+    </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e</IRI>
@@ -221,6 +257,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712</IRI>
         <Literal xml:lang="en">API</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_3d42854e_870d_41c9_a99a_e5db829b0eaa</IRI>
+        <Literal xml:lang="en">Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_48291bf3_6063_4bc5_9546_65c890f574ab</IRI>
+        <Literal xml:lang="en">Program</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -241,6 +287,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d</IRI>
         <Literal xml:lang="en">Performance Hooks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_77a5ddfa_8339_46fe_88ae_841c6f44a39c</IRI>
+        <Literal xml:lang="en">Development</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -286,6 +337,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0</IRI>
         <Literal xml:lang="en">Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/OWLClass_f1adc5a0_f440_4e3b_b7b4_9bbcf829a94d</IRI>
+        <Literal xml:lang="en">Information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
