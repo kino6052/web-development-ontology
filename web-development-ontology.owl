@@ -1,366 +1,2179 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#"
      xml:base="http://www.semanticweb.org/kirill/ontologies/web-development-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/kirill/ontologies/web-development-ontology">
-    <Prefix name="" IRI="http://www.semanticweb.org/kirill/ontologies/web-development-ontology"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Declaration>
-        <Class IRI="#API"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Browser"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Frameworks"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Front-end_Development"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Operating_System"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Presentation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Program"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#React"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Redux"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Redux_Toolkit"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#State_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#User_Interface"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TCP/IP_Client"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_3d42854e_870d_41c9_a99a_e5db829b0eaa"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_48291bf3_6063_4bc5_9546_65c890f574ab"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_77a5ddfa_8339_46fe_88ae_841c6f44a39c"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/OWLClass_f1adc5a0_f440_4e3b_b7b4_9bbcf829a94d"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#React"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Redux"/>
-    </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#Program"/>
-        <Class IRI="/OWLClass_48291bf3_6063_4bc5_9546_65c890f574ab"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="/OWLClass_77a5ddfa_8339_46fe_88ae_841c6f44a39c"/>
-        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
-    </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="#API"/>
-        <Class IRI="#Redux_Toolkit"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Browser"/>
-        <Class IRI="#User_Interface"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Frameworks"/>
-        <Class IRI="#Front-end_Development"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Front-end_Development"/>
-        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Operating_System"/>
-        <Class IRI="#Program"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Presentation"/>
-        <Class IRI="#Frameworks"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Program"/>
-        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#React"/>
-        <Class IRI="#Presentation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Redux"/>
-        <Class IRI="#State_Management"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Redux_Toolkit"/>
-        <Class IRI="#Redux"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#State_Management"/>
-        <Class IRI="#Frameworks"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#User_Interface"/>
-        <Class IRI="#Operating_System"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TCP/IP_Client"/>
-        <Class IRI="#Operating_System"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e"/>
-        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712"/>
-        <Class IRI="#React"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_3d42854e_870d_41c9_a99a_e5db829b0eaa"/>
-        <Class IRI="/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_48291bf3_6063_4bc5_9546_65c890f574ab"/>
-        <Class IRI="/OWLClass_f1adc5a0_f440_4e3b_b7b4_9bbcf829a94d"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121"/>
-        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454"/>
-        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d"/>
-        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_77a5ddfa_8339_46fe_88ae_841c6f44a39c"/>
-        <Class IRI="/OWLClass_3d42854e_870d_41c9_a99a_e5db829b0eaa"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c"/>
-        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
-        <Class IRI="#User_Interface"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
-        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
-        <Class IRI="/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
-        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4"/>
-        <Class IRI="/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691"/>
-        <Class IRI="/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
-        <Class IRI="/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/OWLClass_f1adc5a0_f440_4e3b_b7b4_9bbcf829a94d"/>
-        <Class IRI="/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0"/>
-    </SubClassOf>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e</IRI>
-        <Literal xml:lang="en">Console</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712</IRI>
-        <Literal xml:lang="en">API</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_3d42854e_870d_41c9_a99a_e5db829b0eaa</IRI>
-        <Literal xml:lang="en">Process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_48291bf3_6063_4bc5_9546_65c890f574ab</IRI>
-        <Literal xml:lang="en">Program</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729</IRI>
-        <Literal xml:lang="en">Contents</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121</IRI>
-        <Literal xml:lang="en">Async Hooks</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454</IRI>
-        <Literal xml:lang="en">v8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d</IRI>
-        <Literal xml:lang="en">Performance Hooks</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_77a5ddfa_8339_46fe_88ae_841c6f44a39c</IRI>
-        <Literal xml:lang="en">Development</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c</IRI>
-        <Literal xml:lang="en">Debugger</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845</IRI>
-        <Literal xml:lang="en">CLI</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820</IRI>
-        <Literal xml:lang="en">Debugging/Metric Tools</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec</IRI>
-        <Literal xml:lang="en">Terminal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34</IRI>
-        <Literal xml:lang="en">Back-end Development</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4</IRI>
-        <Literal xml:lang="en">Inspector</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691</IRI>
-        <Literal xml:lang="en">Shell</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973</IRI>
-        <Literal xml:lang="en">Development</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_d99ae6ad_25ab_4ac1_a11e_89e1ffc407a0</IRI>
-        <Literal xml:lang="en">Entity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLClass_f1adc5a0_f440_4e3b_b7b4_9bbcf829a94d</IRI>
-        <Literal xml:lang="en">Information</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910</IRI>
-        <Literal xml:lang="en">includes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de</IRI>
-        <Literal xml:lang="en">relatesTo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
-        <Literal>One thing that I would like to see out of the box for Protege is the ability to create hierarchies not just based on the class relationships</Literal>
-    </AnnotationAssertion>
-</Ontology>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLObjectProperty_040daab5_d102_4f8b_8ccc_7f52b2408910">
+        <rdfs:label xml:lang="en">includes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLObjectProperty_77207f42_9f26_4d16_b1f9_6e8a7a0de1de">
+        <rdfs:label xml:lang="en">relatesTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0vAPLDpvKS4e1aeKG3uMu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R0vAPLDpvKS4e1aeKG3uMu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSBgk6PjgHYLbXOa3zRl1M"/>
+        <rdfs:label xml:lang="en">Front-end Development Utilities Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1CEspaUiah8EzH3ImGmtU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1CEspaUiah8EzH3ImGmtU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rd6mYBeN47giTxBJAlwbOR"/>
+        <rdfs:label xml:lang="en">Babel Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1bqDj4S8gxNJ8RVYCPKua -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1bqDj4S8gxNJ8RVYCPKua">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB972032kdVuRDnlmI9004D"/>
+        <rdfs:label xml:lang="en">IO Monad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3CtwCD2Y4z6wDfI9YDkBN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3CtwCD2Y4z6wDfI9YDkBN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBDXERTikXRxq792KAspt3B"/>
+        <rdfs:label xml:lang="en">Firewall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4TAcDx7REEDk5kTEUVhv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4TAcDx7REEDk5kTEUVhv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R0vAPLDpvKS4e1aeKG3uMu"/>
+        <rdfs:label xml:lang="en">Libraries</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R63aSsHxZsnIjuhOymxrIP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R63aSsHxZsnIjuhOymxrIP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrGROnJXtRZpTpQzOePeU7"/>
+        <rdfs:label xml:lang="en">esModuleInterop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73962ZGKnPsVBntCFMuEqC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R73962ZGKnPsVBntCFMuEqC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSJ9q1MIqY7UwQVpz4kVKS"/>
+        <rdfs:label xml:lang="en">Encoding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74uH0z5Qxt37czxKA8MqQP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74uH0z5Qxt37czxKA8MqQP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFYUUEybc8gFlMYye3mDNN"/>
+        <rdfs:label xml:lang="en">TypeScript Utilities Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R751Fxw8StK4DYPtknFIqI6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R751Fxw8StK4DYPtknFIqI6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <rdfs:label xml:lang="en">Testing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+        <rdfs:label xml:lang="en">Node.js</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R762fmRoptQSlhmq9gFpctH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R762fmRoptQSlhmq9gFpctH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8oyXbG5cHYDVmdPSAR8IUB"/>
+        <rdfs:label xml:lang="en">I/O Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77zaH0GkVM9fIVcLvjgEb9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77zaH0GkVM9fIVcLvjgEb9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtbutxEPDVbw0o1Qqj6k5S"/>
+        <rdfs:label xml:lang="en">Widely Adopted Operating System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79DnrvdaEf4b40gDJ0o8ps -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R79DnrvdaEf4b40gDJ0o8ps">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCilIpyXz4nX7mZnryaBWtf"/>
+        <rdfs:label xml:lang="en">String Enums</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7K7Go3U1SKc2llVxacDtMl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7K7Go3U1SKc2llVxacDtMl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE0hrqCmWbck11icYfjVzq"/>
+        <rdfs:label xml:lang="en">TypeScript Core Types</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KZEYyIKNs688x8TpnKZm4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7KZEYyIKNs688x8TpnKZm4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9TdhssjgW4022WJsB30hfs"/>
+        <rdfs:label xml:lang="en">Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OxKQB5XTQHjFixcRBcfpJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7OxKQB5XTQHjFixcRBcfpJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8od9h2YqP6InM74oPYO6Pq"/>
+        <rdfs:label xml:lang="en">TypeScript Language Configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7R0a9JiPsFZJDA4i0jbBPm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7R0a9JiPsFZJDA4i0jbBPm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R77zaH0GkVM9fIVcLvjgEb9"/>
+        <rdfs:label xml:lang="en">MacOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7V9I2PBvhsPAo2LBQGp1w -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7V9I2PBvhsPAo2LBQGp1w">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <rdfs:label xml:lang="en">Version Control Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7VzsbwxRuSTZurrz3RcK4o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7VzsbwxRuSTZurrz3RcK4o">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCilIpyXz4nX7mZnryaBWtf"/>
+        <rdfs:label xml:lang="en">Const Enums</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7WZTLAs25ZF2Q8TJSW2rUC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7WZTLAs25ZF2Q8TJSW2rUC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hMjWbn3pPxKnnBA09hzQZ"/>
+        <rdfs:label xml:lang="en">User Input</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZpIAR2hpu4U7ecljM4H8S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZpIAR2hpu4U7ecljM4H8S">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlTCSN7qdDhXeVrQnjy1nJ"/>
+        <rdfs:label xml:lang="en">Open Web Platform Technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bgojQSe1phzWJzOwjABdg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7bgojQSe1phzWJzOwjABdg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7KZEYyIKNs688x8TpnKZm4"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZpIAR2hpu4U7ecljM4H8S"/>
+        <rdfs:label xml:lang="en">HTTP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7d1VyI2CNgBvbsWQsIox4Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7d1VyI2CNgBvbsWQsIox4Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSBgk6PjgHYLbXOa3zRl1M"/>
+        <rdfs:label xml:lang="en">Front-end Development Core Technology Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hMjWbn3pPxKnnBA09hzQZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hMjWbn3pPxKnnBA09hzQZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDleaBOYceXQMgRQLIt4m7k"/>
+        <rdfs:label xml:lang="en">I/O Hardware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7lnIcjvy1IZvaf9n7ORSkB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7lnIcjvy1IZvaf9n7ORSkB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hMjWbn3pPxKnnBA09hzQZ"/>
+        <rdfs:label xml:lang="en">Media</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nTnadd9hOQ7uXfEO16zAa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7nTnadd9hOQ7uXfEO16zAa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RHiFeSPTOHWXhIhFeXJb05"/>
+        <rdfs:label xml:lang="en">Algorithm Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7noLZFV56ylCCZhCEIbex -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7noLZFV56ylCCZhCEIbex">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg"/>
+        <rdfs:label xml:lang="en">ThisType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7q3RTVIq9gdNImU5PPJ63M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7q3RTVIq9gdNImU5PPJ63M">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7WZTLAs25ZF2Q8TJSW2rUC"/>
+        <rdfs:label xml:lang="en">Mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qFVIIrQ8xg9jg9zsPcamF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qFVIIrQ8xg9jg9zsPcamF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCE0hrqCmWbck11icYfjVzq"/>
+        <rdfs:label xml:lang="en">TypeScript Type System Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7uEQEwFeySaK8gelOQxywy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7uEQEwFeySaK8gelOQxywy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW"/>
+        <rdfs:label xml:lang="en">Web APIs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7usw38wbAk0xKyD814Yd5L -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7usw38wbAk0xKyD814Yd5L">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9B9OuxA1Q16YEbgqjSeWLn"/>
+        <rdfs:label xml:lang="en">ISO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yHK7tbVrKry9pa2mIzBfl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yHK7tbVrKry9pa2mIzBfl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjRrc8gxxi4MF21n3qOu24"/>
+        <rdfs:label xml:lang="en">Semantic Versioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83YrQzXmwfOhKqOhwHIHCZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R83YrQzXmwfOhKqOhwHIHCZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZpIAR2hpu4U7ecljM4H8S"/>
+        <rdfs:label xml:lang="en">CSS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88XIvzYaGN4JuiACeAu7WG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88XIvzYaGN4JuiACeAu7WG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir"/>
+        <rdfs:label xml:lang="en">Readonly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EYbdEZCa2Lnxv2HWuXAB4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8EYbdEZCa2Lnxv2HWuXAB4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8iCgBrupHNnwTOLbfeMoO"/>
+        <rdfs:label xml:lang="en">Regular Expressions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8FrRNkSbF5hgTs3SGqePf8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8FrRNkSbF5hgTs3SGqePf8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrGROnJXtRZpTpQzOePeU7"/>
+        <rdfs:label xml:lang="en">isolatedModules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8HPZ77aWBncOE4wyXaHna9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8HPZ77aWBncOE4wyXaHna9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmGLY74CkWGtHWXg32tjH5"/>
+        <rdfs:label xml:lang="en">TypeScript Modules Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8IoVPh2QKOET1wBBvVYJHf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8IoVPh2QKOET1wBBvVYJHf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Gb4B4ctPh8I6Nubu9Gf4w"/>
+        <rdfs:label xml:lang="en">Pick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KWIANu4F4cAeMyjiMf9ad -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8KWIANu4F4cAeMyjiMf9ad">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDjfUuo9midPuKzgRtgdfgW"/>
+        <rdfs:label xml:lang="en">Browser Compatibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8LOrxkMYtdcrE2yfbq8Q0k -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8LOrxkMYtdcrE2yfbq8Q0k">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98SZu9WngQNe8cqXLzB4P8"/>
+        <rdfs:label xml:lang="en">Haskell CLI Tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8MhvsT10WFAiREgcxbHdGK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8MhvsT10WFAiREgcxbHdGK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDkSDWJZEnAMkTefsRfyGFt"/>
+        <rdfs:label xml:lang="en">Rust</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OtBAT9H139w8W7BFJPFLz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8OtBAT9H139w8W7BFJPFLz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Gb4B4ctPh8I6Nubu9Gf4w"/>
+        <rdfs:label xml:lang="en">Extract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8To7Ynp1JKGXJ2JuH6FWE3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8To7Ynp1JKGXJ2JuH6FWE3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7nTnadd9hOQ7uXfEO16zAa"/>
+        <rdfs:label xml:lang="en">Combinatorial Search</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WZ09RtxTgRJEgNEzpC2M0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8WZ09RtxTgRJEgNEzpC2M0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R77zaH0GkVM9fIVcLvjgEb9"/>
+        <rdfs:label xml:lang="en">Windows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8X3AezGXNxEmxEwYqYfnmH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8X3AezGXNxEmxEwYqYfnmH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rdi4nwXtC4eOfQdTNVHbqU"/>
+        <rdfs:label xml:lang="en">Git</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8X5oHn2EpgObB3TQwrk3z3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8X5oHn2EpgObB3TQwrk3z3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZpIAR2hpu4U7ecljM4H8S"/>
+        <rdfs:label xml:lang="en">HTML</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dFsl3r8CmpPkr3hCq3gNv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8dFsl3r8CmpPkr3hCq3gNv">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <rdfs:label xml:lang="en">Computer Graphics Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hqrjXmKXIDfcLGB2EvBCi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8hqrjXmKXIDfcLGB2EvBCi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg"/>
+        <rdfs:label xml:lang="en">OmitThis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8iCgBrupHNnwTOLbfeMoO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8iCgBrupHNnwTOLbfeMoO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDnHkPIVEQwPAV3PjGOI7Zo"/>
+        <rdfs:label xml:lang="en">Language Features</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8jz7ottkOjGQ7LKrEt0Fsn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8jz7ottkOjGQ7LKrEt0Fsn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSJ9q1MIqY7UwQVpz4kVKS"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RnKM7ZFKP1Z7fsg452LRSd"/>
+        <rdfs:label xml:lang="en">Programming Language Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8kfR8W6UNEFkgzyM8cg4VK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8kfR8W6UNEFkgzyM8cg4VK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R751Fxw8StK4DYPtknFIqI6"/>
+        <rdfs:label xml:lang="en">Sanity Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lYVC0fhDjDb9IwbzZls5D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lYVC0fhDjDb9IwbzZls5D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDavKoVo98Caqj0blqnJf1s"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rg4ML77HfXL9RSsvvUvEkT"/>
+        <rdfs:label xml:lang="en">RFC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8mYg4SA14t2OA3KwkmeF0d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8mYg4SA14t2OA3KwkmeF0d">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2AoaEJ254y52hEsInaPZd"/>
+        <rdfs:label xml:lang="en">Reverse-delete Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8od9h2YqP6InM74oPYO6Pq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8od9h2YqP6InM74oPYO6Pq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmGLY74CkWGtHWXg32tjH5"/>
+        <rdfs:comment rdf:resource="https://www.typescriptlang.org/tsconfig#Type_Checking_6248"/>
+        <rdfs:label xml:lang="en">TypeScript Configuration Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8oyXbG5cHYDVmdPSAR8IUB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8oyXbG5cHYDVmdPSAR8IUB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtbutxEPDVbw0o1Qqj6k5S"/>
+        <rdfs:label xml:lang="en">Operating System Constituents Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pR6yMiyXeWwAQEanGiVL7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8pR6yMiyXeWwAQEanGiVL7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSSIVQhLEK1k8Wesf4FkVn"/>
+        <rdfs:label xml:lang="en">Webpack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pyDmqXM0awv5n9ahwbooG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8pyDmqXM0awv5n9ahwbooG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDcc0FuUMy4TGdYUSJnPFCx"/>
+        <rdfs:label xml:lang="en">Python API</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tIgzELpCTzr96m3R2bR9X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tIgzELpCTzr96m3R2bR9X">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rvm0vev42NP7j6GpDIxq8D"/>
+        <rdfs:label xml:lang="en">IIS Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tZ7nMH48OGxyMnYF1kPsV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tZ7nMH48OGxyMnYF1kPsV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#State_Management"/>
+        <rdfs:label xml:lang="en">Effector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wBQbU1S5IARBWyALPCaaI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wBQbU1S5IARBWyALPCaaI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9y8iS8yW7OTmOUdo3zuCCK"/>
+        <rdfs:label xml:lang="en">Dijkstra Shortest Path</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93jw9YW3tPaom5U95e3dAb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R93jw9YW3tPaom5U95e3dAb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8oyXbG5cHYDVmdPSAR8IUB"/>
+        <rdfs:label xml:lang="en">I/O Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98SZu9WngQNe8cqXLzB4P8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98SZu9WngQNe8cqXLzB4P8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RsNcCRzbFRcYcNoOaXYnC8"/>
+        <rdfs:label xml:lang="en">Haskell Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9B6YAGQUXHbm9cPQKzuxtE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9B6YAGQUXHbm9cPQKzuxtE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV"/>
+        <rdfs:comment rdf:resource="https://erik-engheim.medium.com/microprocessor-games-ad19e4aa2019"/>
+        <rdfs:label xml:lang="en">Assembly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9B9OuxA1Q16YEbgqjSeWLn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9B9OuxA1Q16YEbgqjSeWLn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R73962ZGKnPsVBntCFMuEqC"/>
+        <rdfs:label xml:lang="en">Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Gb4B4ctPh8I6Nubu9Gf4w -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Gb4B4ctPh8I6Nubu9Gf4w">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir"/>
+        <rdfs:label xml:lang="en">TypeScript Filtering Utility Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ObpQgARSdROtMziSWDwO7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ObpQgARSdROtMziSWDwO7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir"/>
+        <rdfs:label xml:lang="en">Required</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Q7k7Vk8ielO95iHAEkvNe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Q7k7Vk8ielO95iHAEkvNe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4TAcDx7REEDk5kTEUVhv"/>
+        <rdfs:label xml:lang="en">JavaScript Utilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9TdhssjgW4022WJsB30hfs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9TdhssjgW4022WJsB30hfs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <rdfs:label xml:lang="en">Standards Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9WgMj1haZKi4EOB2XMGgnf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9WgMj1haZKi4EOB2XMGgnf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7WZTLAs25ZF2Q8TJSW2rUC"/>
+        <rdfs:label xml:lang="en">Keyboard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9d2hiFhUWa9GNasyXzuvW0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9d2hiFhUWa9GNasyXzuvW0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rg4ML77HfXL9RSsvvUvEkT"/>
+        <rdfs:label xml:lang="en">STD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9jFqnrCgLc2Pw0mbE5Fnph -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9jFqnrCgLc2Pw0mbE5Fnph">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM"/>
+        <rdfs:label xml:lang="en">AOM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9t2dMemgcbTe2de9uyPAKe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9t2dMemgcbTe2de9uyPAKe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2AoaEJ254y52hEsInaPZd"/>
+        <rdfs:label xml:lang="en">Prim&apos;s Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tEdZVWQkY0fjAvYCybPGE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9tEdZVWQkY0fjAvYCybPGE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R0vAPLDpvKS4e1aeKG3uMu"/>
+        <rdfs:label xml:lang="en">Playground</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9uK7A2FYwuH13zUh1IRrNK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9uK7A2FYwuH13zUh1IRrNK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg"/>
+        <rdfs:label xml:lang="en">InstanceType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9uMq0N0FQ9w3vqzzWUBUjO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9uMq0N0FQ9w3vqzzWUBUjO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA"/>
+        <rdfs:label xml:lang="en">Interpreted Front-end General Purpose Languages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9uO0Khrg4uXwT3UriHgUzM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9uO0Khrg4uXwT3UriHgUzM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg"/>
+        <rdfs:label xml:lang="en">ThisParameterType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9uybbsvd8GrqCxjbpyHuKt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9uybbsvd8GrqCxjbpyHuKt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCilIpyXz4nX7mZnryaBWtf"/>
+        <rdfs:label xml:lang="en">Heterogeneous Enums</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vLv3k4YypaVFaTs8bi5Rs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vLv3k4YypaVFaTs8bi5Rs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdMavxmlClURb1KzOMfPcL"/>
+        <rdfs:label xml:lang="en">Uppercase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVFVWSMmh1OlsFsEl3sqso"/>
+        <rdfs:label xml:lang="en">Front-end General Purpose Programming Languages Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xASw9xlpNb2yKoBNfqUvw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9xASw9xlpNb2yKoBNfqUvw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmGLY74CkWGtHWXg32tjH5"/>
+        <rdfs:label xml:lang="en">TypeScript Meta Programming Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9y8iS8yW7OTmOUdo3zuCCK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9y8iS8yW7OTmOUdo3zuCCK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7nTnadd9hOQ7uXfEO16zAa"/>
+        <rdfs:label xml:lang="en">Greedy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB1pMthqAgr9lcYBMha7VMn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB1pMthqAgr9lcYBMha7VMn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9y8iS8yW7OTmOUdo3zuCCK"/>
+        <rdfs:label xml:lang="en">Optimal Caching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8idcHLSSi2N1OU15q6r1m -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8idcHLSSi2N1OU15q6r1m">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7nTnadd9hOQ7uXfEO16zAa"/>
+        <rdfs:label xml:lang="en">Stable Matching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB972032kdVuRDnlmI9004D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB972032kdVuRDnlmI9004D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98SZu9WngQNe8cqXLzB4P8"/>
+        <rdfs:label xml:lang="en">Monads Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBDXERTikXRxq792KAspt3B -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBDXERTikXRxq792KAspt3B">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBI02nXMU5ALCdIYNrzrx40"/>
+        <rdfs:label xml:lang="en">Computer Network</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEQGqUIpfOxmgSvqRCEecT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBEQGqUIpfOxmgSvqRCEecT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#State_Management"/>
+        <rdfs:label xml:lang="en">MobX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBI02nXMU5ALCdIYNrzrx40 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBI02nXMU5ALCdIYNrzrx40">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVsrBgYnfK6I65ZijdCY1z"/>
+        <rdfs:label xml:lang="en">Physical Computer System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBMmqALnaBbq0ceAHGcw2sQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBMmqALnaBbq0ceAHGcw2sQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDxEnWFiyDe4BJ9uotYsws3"/>
+        <rdfs:label xml:lang="en">Charset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBNZJ5DNznUu03oiBoRcZwK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBNZJ5DNznUu03oiBoRcZwK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM"/>
+        <rdfs:label xml:lang="en">CSSOM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9wfUG6h1nrJjybPmBiDTA"/>
+        <rdfs:label xml:lang="en">Basic Front-end General Purpose Languages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBPpP1G8WVmG6jPFP2jl7bn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPpP1G8WVmG6jPFP2jl7bn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9tEdZVWQkY0fjAvYCybPGE"/>
+        <rdfs:label xml:lang="en">Codesandbox</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBS7yNN05QICsMmI9Px8Et0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBS7yNN05QICsMmI9Px8Et0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+        <rdfs:label xml:lang="en">Mathematics Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVsrBgYnfK6I65ZijdCY1z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVsrBgYnfK6I65ZijdCY1z">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+        <rdfs:label xml:lang="en">Computer Science Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBXFHljhXFM3drZyQSCAzjV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBXFHljhXFM3drZyQSCAzjV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWR94uqiRZ6hbezzYuGntw"/>
+        <rdfs:label xml:lang="en">Interpreter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZ4BXY10SQbXC02fBW4iEt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBZ4BXY10SQbXC02fBW4iEt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir"/>
+        <rdfs:label xml:lang="en">Record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBa7TTALkSpgwCHjNaJxcSd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBa7TTALkSpgwCHjNaJxcSd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R751Fxw8StK4DYPtknFIqI6"/>
+        <rdfs:label xml:lang="en">Stress Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiMnGwy9QUFYWXC5wUWCZi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBiMnGwy9QUFYWXC5wUWCZi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjRrc8gxxi4MF21n3qOu24"/>
+        <rdfs:label xml:lang="en">Git Flow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBkdIev09TCtdod5HY4NhLQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBkdIev09TCtdod5HY4NhLQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNRu9Qjg1f0qc2JrChsMCM"/>
+        <rdfs:label xml:lang="en">Genetic Algorithms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlTCSN7qdDhXeVrQnjy1nJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlTCSN7qdDhXeVrQnjy1nJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDXpJ52yeh5cT6536dZ85RA"/>
+        <rdfs:label xml:lang="en">Web Technology Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBm5IN2U1XOVuVHmVM2QYqm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBm5IN2U1XOVuVHmVM2QYqm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj2eOGrjElF4gyOrESi9jc"/>
+        <rdfs:label xml:lang="en">core.js</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmB9oH15CARdbZ4TZ41fzy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmB9oH15CARdbZ4TZ41fzy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R1CEspaUiah8EzH3ImGmtU"/>
+        <rdfs:label xml:lang="en">Babel Preset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmX2UPuEcCgR39pCXCArRJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmX2UPuEcCgR39pCXCArRJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB972032kdVuRDnlmI9004D"/>
+        <rdfs:label xml:lang="en">Monadic Actions Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpjtdsuUFvpn7S63HkkOgg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpjtdsuUFvpn7S63HkkOgg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2AoaEJ254y52hEsInaPZd"/>
+        <rdfs:label xml:lang="en">Kruskal&apos;s Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBt0JqgtGR4pm7dwpHuITCT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBt0JqgtGR4pm7dwpHuITCT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCilIpyXz4nX7mZnryaBWtf"/>
+        <rdfs:label xml:lang="en">Computed Enums</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtbutxEPDVbw0o1Qqj6k5S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBtbutxEPDVbw0o1Qqj6k5S">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Program"/>
+        <rdfs:label xml:lang="en">Operating System Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBuwYjRY00eBA3J0OjJWzLe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBuwYjRY00eBA3J0OjJWzLe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RV409GteI8AXFF802SqMPu"/>
+        <rdfs:label xml:lang="en">TypeScript Declaration Merging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBv6pydLJWLIHby3yiVIIVF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBv6pydLJWLIHby3yiVIIVF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7lnIcjvy1IZvaf9n7ORSkB"/>
+        <rdfs:label xml:lang="en">Audio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzESvEZxpmWzccAFZCaTQh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzESvEZxpmWzccAFZCaTQh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R77zaH0GkVM9fIVcLvjgEb9"/>
+        <rdfs:label xml:lang="en">Linux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzyyAWC2kLZvN26S3iUyBn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzyyAWC2kLZvN26S3iUyBn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8od9h2YqP6InM74oPYO6Pq"/>
+        <rdfs:label xml:lang="en">Tripple Slash Directives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC7u7BjZKfaT90rORULqlZ5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC7u7BjZKfaT90rORULqlZ5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDpjiie2rnE9vdYISZI11M2"/>
+        <rdfs:label xml:lang="en">Interpreted General Purpose Language Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8E3liRKeIL1K1qso9Zmg3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8E3liRKeIL1K1qso9Zmg3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RnKM7ZFKP1Z7fsg452LRSd"/>
+        <rdfs:label xml:lang="en">Regex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCE0hrqCmWbck11icYfjVzq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCE0hrqCmWbck11icYfjVzq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFYUUEybc8gFlMYye3mDNN"/>
+        <rdfs:label xml:lang="en">TypeScript Type Features Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCGBXng4MirJ4nXMI3lBLxL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCGBXng4MirJ4nXMI3lBLxL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9y8iS8yW7OTmOUdo3zuCCK"/>
+        <rdfs:label xml:lang="en">Clustering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHGEX2zjBQRDoe3NkGdCRH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCHGEX2zjBQRDoe3NkGdCRH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC8E3liRKeIL1K1qso9Zmg3"/>
+        <rdfs:label xml:lang="en">regex101</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJCaFWJn6QzAGu0BrN5A7q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJCaFWJn6QzAGu0BrN5A7q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg"/>
+        <rdfs:label xml:lang="en">Parameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Browser"/>
+        <rdfs:label xml:lang="en">Web Platform Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQlglwodO2bSr5OkSaKEiv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCQlglwodO2bSr5OkSaKEiv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hMjWbn3pPxKnnBA09hzQZ"/>
+        <rdfs:label xml:lang="en">Internet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCVTkV8exCozzr7iMKAKcI9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCVTkV8exCozzr7iMKAKcI9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9tEdZVWQkY0fjAvYCybPGE"/>
+        <rdfs:label xml:lang="en">Codepen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXOVRzVLxn3FrWH7dDxvWK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCXOVRzVLxn3FrWH7dDxvWK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNRu9Qjg1f0qc2JrChsMCM"/>
+        <rdfs:label xml:lang="en">Answer Set Programming</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCilIpyXz4nX7mZnryaBWtf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCilIpyXz4nX7mZnryaBWtf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTxRVqXNmGRKP1SkWk9E8j"/>
+        <rdfs:label xml:lang="en">TypeScript Enum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjTXYSkMudnRicRkEk1MOO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCjTXYSkMudnRicRkEk1MOO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9xASw9xlpNb2yKoBNfqUvw"/>
+        <rdfs:label xml:lang="en">Decorator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjsOdotoWJuECiK0EuCN18 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCjsOdotoWJuECiK0EuCN18">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg"/>
+        <rdfs:label xml:lang="en">ReturnType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmGLY74CkWGtHWXg32tjH5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCmGLY74CkWGtHWXg32tjH5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlTCSN7qdDhXeVrQnjy1nJ"/>
+        <rdfs:label xml:lang="en">TypeScript Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnp6eUafANE67ArRzRzGAM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCnp6eUafANE67ArRzRzGAM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qFVIIrQ8xg9jg9zsPcamF"/>
+        <rdfs:label xml:lang="en">Structural Subtyping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzLbHAeXBq9RP8jYqsFM7a -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzLbHAeXBq9RP8jYqsFM7a">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmX2UPuEcCgR39pCXCArRJ"/>
+        <rdfs:label xml:lang="en">Monadic Id Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBOCbVeegvG55wV1evVMgLV"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWR94uqiRZ6hbezzYuGntw"/>
+        <rdfs:label xml:lang="en">Bytecode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2AoaEJ254y52hEsInaPZd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD2AoaEJ254y52hEsInaPZd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9y8iS8yW7OTmOUdo3zuCCK"/>
+        <rdfs:label xml:lang="en">Minimum Spanning Tree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDCLdK1lsVaISUtmEibNajw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDCLdK1lsVaISUtmEibNajw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir"/>
+        <rdfs:label xml:lang="en">Partial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFYUUEybc8gFlMYye3mDNN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDFYUUEybc8gFlMYye3mDNN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmGLY74CkWGtHWXg32tjH5"/>
+        <rdfs:label xml:lang="en">TypeScript Features Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK1umX4WzIGRm49r6jr0dk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK1umX4WzIGRm49r6jr0dk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmX2UPuEcCgR39pCXCArRJ"/>
+        <rdfs:label xml:lang="en">Monadic Bind Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK5hGCI8OfoqlZP8wk4gNc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK5hGCI8OfoqlZP8wk4gNc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Gb4B4ctPh8I6Nubu9Gf4w"/>
+        <rdfs:label xml:lang="en">Omit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDQYNHaQBM7LK51Aeq5XTcg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDQYNHaQBM7LK51Aeq5XTcg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg"/>
+        <rdfs:label xml:lang="en">ConstructorParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRNyt7iOJDX9wkLMOedLZE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDRNyt7iOJDX9wkLMOedLZE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr"/>
+        <rdfs:comment rdf:resource="https://superpowered.com/js-wasm-sdk/example_effects/"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web Assembly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSSIVQhLEK1k8Wesf4FkVn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSSIVQhLEK1k8Wesf4FkVn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7d1VyI2CNgBvbsWQsIox4Q"/>
+        <rdfs:label xml:lang="en">Static Module Bundler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDVxBnczP46ue0XbcyzbuRi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDVxBnczP46ue0XbcyzbuRi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R98SZu9WngQNe8cqXLzB4P8"/>
+        <rdfs:label xml:lang="en">Glasgow Haskell Compiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXpJ52yeh5cT6536dZ85RA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDXpJ52yeh5cT6536dZ85RA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <rdfs:label xml:lang="en">Web Development Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDaNXWLgNT3WaTpC0NLDMi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDaNXWLgNT3WaTpC0NLDMi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Q7k7Vk8ielO95iHAEkvNe"/>
+        <rdfs:label xml:lang="en">Date &amp; Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDavKoVo98Caqj0blqnJf1s -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDavKoVo98Caqj0blqnJf1s">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9TdhssjgW4022WJsB30hfs"/>
+        <rdfs:label xml:lang="en">W3C Standards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbNAuXFkqMQousWHbIvBr8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDbNAuXFkqMQousWHbIvBr8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9tEdZVWQkY0fjAvYCybPGE"/>
+        <rdfs:label xml:lang="en">Storybook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDcc0FuUMy4TGdYUSJnPFCx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDcc0FuUMy4TGdYUSJnPFCx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC7u7BjZKfaT90rORULqlZ5"/>
+        <rdfs:label xml:lang="en">Python Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdYYK2zrksXb2V3QiPtOn2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDdYYK2zrksXb2V3QiPtOn2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R762fmRoptQSlhmq9gFpctH"/>
+        <rdfs:label xml:lang="en">Internet Access Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDduqL2mDhGgsRZxCm5Gu7D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDduqL2mDhGgsRZxCm5Gu7D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7bgojQSe1phzWJzOwjABdg"/>
+        <rdfs:label xml:lang="en">URL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeDRIb6DSgXFMZKb2Eb311 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDeDRIb6DSgXFMZKb2Eb311">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9y8iS8yW7OTmOUdo3zuCCK"/>
+        <rdfs:label xml:lang="en">Scheduling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDh6QzH7p5zs3IbwrMFvyUh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDh6QzH7p5zs3IbwrMFvyUh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmGLY74CkWGtHWXg32tjH5"/>
+        <rdfs:label xml:lang="en">TypeScript Object Oriented Programming Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDjfUuo9midPuKzgRtgdfgW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDjfUuo9midPuKzgRtgdfgW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLklme0U3hZGCnDMTFOnip"/>
+        <rdfs:label xml:lang="en">Front-end Development Optimization Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkSDWJZEnAMkTefsRfyGFt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkSDWJZEnAMkTefsRfyGFt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDpjiie2rnE9vdYISZI11M2"/>
+        <rdfs:label xml:lang="en">Compiled General Purpose Languages Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlMLmxIU5iDSTZiOmDCSNx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlMLmxIU5iDSTZiOmDCSNx">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <rdfs:label xml:lang="en">Development Tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDleaBOYceXQMgRQLIt4m7k -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDleaBOYceXQMgRQLIt4m7k">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBI02nXMU5ALCdIYNrzrx40"/>
+        <rdfs:label xml:lang="en">Hardware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDn0OcS5244l7GCGIAKpLoN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDn0OcS5244l7GCGIAKpLoN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#State_Management"/>
+        <rdfs:label xml:lang="en">RxJS Subject</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnHkPIVEQwPAV3PjGOI7Zo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDnHkPIVEQwPAV3PjGOI7Zo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0FShR73Dqh3SJIEYb0VGr"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RevI3lPAd37WG3BFAcuL0W"/>
+        <rdfs:label xml:lang="en">JavaScript</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnXrhBJU8RcAI6gxT4tlNh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDnXrhBJU8RcAI6gxT4tlNh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBa7TTALkSpgwCHjNaJxcSd"/>
+        <rdfs:label xml:lang="en">Load Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpjiie2rnE9vdYISZI11M2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDpjiie2rnE9vdYISZI11M2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jz7ottkOjGQ7LKrEt0Fsn"/>
+        <rdfs:label xml:lang="en">General Purpose Programming Languages Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDteKMHNZzzKoYX05oID9xo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDteKMHNZzzKoYX05oID9xo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7K7Go3U1SKc2llVxacDtMl"/>
+        <rdfs:label xml:lang="en">Iterable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDw8eTeH2O59ZsTfbVX0dGG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDw8eTeH2O59ZsTfbVX0dGG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCilIpyXz4nX7mZnryaBWtf"/>
+        <rdfs:label xml:lang="en">Numeric Enum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDwlZiEcHOvY7up03DXh5xg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir"/>
+        <rdfs:label xml:lang="en">TypeScript Reflexion Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxEnWFiyDe4BJ9uotYsws3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDxEnWFiyDe4BJ9uotYsws3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R73962ZGKnPsVBntCFMuEqC"/>
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDzcQZdYH1UPumo6Ju1Wyqs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDzcQZdYH1UPumo6Ju1Wyqs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Gb4B4ctPh8I6Nubu9Gf4w"/>
+        <rdfs:label xml:lang="en">Exclude</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGNIi9NZjsPsAiBhANTbSD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGNIi9NZjsPsAiBhANTbSD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LOrxkMYtdcrE2yfbq8Q0k"/>
+        <rdfs:label xml:lang="en">ghci</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHiFeSPTOHWXhIhFeXJb05 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RHiFeSPTOHWXhIhFeXJb05">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSJ9q1MIqY7UwQVpz4kVKS"/>
+        <rdfs:label xml:lang="en">Computation Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIYTqBhZVDIGfrIcryQwbU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RIYTqBhZVDIGfrIcryQwbU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9B9OuxA1Q16YEbgqjSeWLn"/>
+        <rdfs:label xml:lang="en">GMT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLklme0U3hZGCnDMTFOnip -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLklme0U3hZGCnDMTFOnip">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDXpJ52yeh5cT6536dZ85RA"/>
+        <rdfs:label xml:lang="en">Front-end Development Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLv2bBUD7GI6pV8FN1TVc2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLv2bBUD7GI6pV8FN1TVc2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDjfUuo9midPuKzgRtgdfgW"/>
+        <rdfs:label xml:lang="en">Accessibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMYQ5dwaJihcxgLaLLAVLt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMYQ5dwaJihcxgLaLLAVLt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R762fmRoptQSlhmq9gFpctH"/>
+        <rdfs:label xml:lang="en">Driver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNGbayhL685aB17BdXzZa6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNGbayhL685aB17BdXzZa6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrGROnJXtRZpTpQzOePeU7"/>
+        <rdfs:label xml:lang="en">allowSyntheticDefaultImports</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNRu9Qjg1f0qc2JrChsMCM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNRu9Qjg1f0qc2JrChsMCM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8To7Ynp1JKGXJ2JuH6FWE3"/>
+        <rdfs:label xml:lang="en">Combinatorial Search Heuristic Methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7uEQEwFeySaK8gelOQxywy"/>
+        <rdfs:label xml:lang="en">Object Models</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSBgk6PjgHYLbXOa3zRl1M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSBgk6PjgHYLbXOa3zRl1M">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RLklme0U3hZGCnDMTFOnip"/>
+        <rdfs:label xml:lang="en">Front-end Development Technology Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSE4RLbL6TYiZRbxwJwgdZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSE4RLbL6TYiZRbxwJwgdZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDaNXWLgNT3WaTpC0NLDMi"/>
+        <rdfs:label xml:lang="en">MomentJS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSJ9q1MIqY7UwQVpz4kVKS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSJ9q1MIqY7UwQVpz4kVKS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVsrBgYnfK6I65ZijdCY1z"/>
+        <rdfs:label xml:lang="en">Information Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTFOmeJGcRLDvVVM3T4MnK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTFOmeJGcRLDvVVM3T4MnK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZpIAR2hpu4U7ecljM4H8S"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROLa6SqZivNqM8r74PuOGM"/>
+        <rdfs:label xml:lang="en">DOM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTxRVqXNmGRKP1SkWk9E8j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTxRVqXNmGRKP1SkWk9E8j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFYUUEybc8gFlMYye3mDNN"/>
+        <rdfs:label xml:lang="en">TypeScript Functional Features Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RU7cjtjncFD1AFx3yANpbv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RU7cjtjncFD1AFx3yANpbv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R751Fxw8StK4DYPtknFIqI6"/>
+        <rdfs:label xml:lang="en">Regression Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R74uH0z5Qxt37czxKA8MqQP"/>
+        <rdfs:label xml:lang="en">TypeScript Utitily Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUYQC33Hpy5iW38sfXgrpQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUYQC33Hpy5iW38sfXgrpQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OxKQB5XTQHjFixcRBcfpJ"/>
+        <rdfs:label xml:lang="en">JSX Configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RV409GteI8AXFF802SqMPu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RV409GteI8AXFF802SqMPu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDh6QzH7p5zs3IbwrMFvyUh"/>
+        <rdfs:label xml:lang="en">Method Overload</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVFVWSMmh1OlsFsEl3sqso -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVFVWSMmh1OlsFsEl3sqso">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7d1VyI2CNgBvbsWQsIox4Q"/>
+        <rdfs:label xml:lang="en">Front-end Programming Languages Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWR94uqiRZ6hbezzYuGntw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWR94uqiRZ6hbezzYuGntw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCOME8XHzEXVQIwRacTdJfW"/>
+        <rdfs:label xml:lang="en">Virtual Machine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ra3rT9OnDzcqTKRM30K6oe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ra3rT9OnDzcqTKRM30K6oe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R751Fxw8StK4DYPtknFIqI6"/>
+        <rdfs:label xml:lang="en">Smoke Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbTczAOkZDwk1aRwSAMCKm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbTczAOkZDwk1aRwSAMCKm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rq6wonNU5ReQDUIiDvamU"/>
+        <rdfs:label xml:lang="en">ASCII</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbyFXhmNQfDCf9fDPCyR1A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbyFXhmNQfDCf9fDPCyR1A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rq6wonNU5ReQDUIiDvamU"/>
+        <rdfs:label xml:lang="en">UTF-8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rd6mYBeN47giTxBJAlwbOR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rd6mYBeN47giTxBJAlwbOR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7d1VyI2CNgBvbsWQsIox4Q"/>
+        <rdfs:label xml:lang="en">Parser Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdBkVDZGPO28yMumbZBV8m -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdBkVDZGPO28yMumbZBV8m">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdMavxmlClURb1KzOMfPcL"/>
+        <rdfs:label xml:lang="en">Lowercase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdMavxmlClURb1KzOMfPcL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdMavxmlClURb1KzOMfPcL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir"/>
+        <rdfs:label xml:lang="en">TypeScript Intrinsic String Manipulation Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rdi4nwXtC4eOfQdTNVHbqU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rdi4nwXtC4eOfQdTNVHbqU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7V9I2PBvhsPAo2LBQGp1w"/>
+        <rdfs:label xml:lang="en">Version Control Systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Re0UGpeHFQMWkYBSU79hxC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Re0UGpeHFQMWkYBSU79hxC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDh6QzH7p5zs3IbwrMFvyUh"/>
+        <rdfs:label xml:lang="en">Mixin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RevI3lPAd37WG3BFAcuL0W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RevI3lPAd37WG3BFAcuL0W">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZpIAR2hpu4U7ecljM4H8S"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9uMq0N0FQ9w3vqzzWUBUjO"/>
+        <rdfs:label xml:lang="en">ECMAScript</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg4ML77HfXL9RSsvvUvEkT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rg4ML77HfXL9RSsvvUvEkT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9TdhssjgW4022WJsB30hfs"/>
+        <rdfs:label xml:lang="en">IETF Internet Standards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhMZOTtcmMACLW8pF8aIyv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhMZOTtcmMACLW8pF8aIyv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCQlglwodO2bSr5OkSaKEiv"/>
+        <rdfs:label xml:lang="en">Ethernet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiEpcag8LSsYukp7EdLwZK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RiEpcag8LSsYukp7EdLwZK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDaNXWLgNT3WaTpC0NLDMi"/>
+        <rdfs:label xml:lang="en">DateFns</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiqCUwFUC5pCboiM1KgtJG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RiqCUwFUC5pCboiM1KgtJG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDeDRIb6DSgXFMZKb2Eb311"/>
+        <rdfs:label xml:lang="en">Interval Scheduling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rj2eOGrjElF4gyOrESi9jc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rj2eOGrjElF4gyOrESi9jc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Q7k7Vk8ielO95iHAEkvNe"/>
+        <rdfs:label xml:lang="en">Standardized Core Functionality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjRrc8gxxi4MF21n3qOu24 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjRrc8gxxi4MF21n3qOu24">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7V9I2PBvhsPAo2LBQGp1w"/>
+        <rdfs:label xml:lang="en">Version Control Practices</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlytNN1p9UnO1NsXVXcGTU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RlytNN1p9UnO1NsXVXcGTU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8EYbdEZCa2Lnxv2HWuXAB4"/>
+        <rdfs:label xml:lang="en">Unicode Blocks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnKM7ZFKP1Z7fsg452LRSd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnKM7ZFKP1Z7fsg452LRSd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973"/>
+        <rdfs:label xml:lang="en">Development Technology Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RopBSInjrYhoJnmNveQ58l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RopBSInjrYhoJnmNveQ58l">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNRu9Qjg1f0qc2JrChsMCM"/>
+        <rdfs:label xml:lang="en">Deep Learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rq6wonNU5ReQDUIiDvamU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rq6wonNU5ReQDUIiDvamU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDxEnWFiyDe4BJ9uotYsws3"/>
+        <rdfs:label xml:lang="en">Character Encoding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrGROnJXtRZpTpQzOePeU7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrGROnJXtRZpTpQzOePeU7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8od9h2YqP6InM74oPYO6Pq"/>
+        <rdfs:label xml:lang="en">Interop Constraints</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rs9QOrAv7R0TTiLtmeT3wK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rs9QOrAv7R0TTiLtmeT3wK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCQlglwodO2bSr5OkSaKEiv"/>
+        <rdfs:label xml:lang="en">WiFi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsCRlbcwdUtcmembM4Dv8N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsCRlbcwdUtcmembM4Dv8N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RevI3lPAd37WG3BFAcuL0W"/>
+        <rdfs:label xml:lang="en">Specifications</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsNcCRzbFRcYcNoOaXYnC8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsNcCRzbFRcYcNoOaXYnC8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDpjiie2rnE9vdYISZI11M2"/>
+        <rdfs:label xml:lang="en">Functional Programming Languages Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtHUbCclRKMPVfTAX7Yn4r -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtHUbCclRKMPVfTAX7Yn4r">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R1CEspaUiah8EzH3ImGmtU"/>
+        <rdfs:label xml:lang="en">Babel REPL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuZCVRAQcN7b12JGRczsWP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuZCVRAQcN7b12JGRczsWP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Gb4B4ctPh8I6Nubu9Gf4w"/>
+        <rdfs:label xml:lang="en">NonNullable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rvm0vev42NP7j6GpDIxq8D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rvm0vev42NP7j6GpDIxq8D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34"/>
+        <rdfs:label xml:lang="en">.NET Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwGPJEDANL2fIfJNf60mLx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RwGPJEDANL2fIfJNf60mLx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7lnIcjvy1IZvaf9n7ORSkB"/>
+        <rdfs:label xml:lang="en">Video</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rx5gaanAeLaYc7gQDvi73b -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rx5gaanAeLaYc7gQDvi73b">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qFVIIrQ8xg9jg9zsPcamF"/>
+        <rdfs:label xml:lang="en">TypeScript Type Inference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rz5wQGFdDLFcWp0fomJy0h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rz5wQGFdDLFcWp0fomJy0h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUOoCx3gpvRFxXr1NptNir"/>
+        <rdfs:label xml:lang="en">Awaited&lt;T&gt;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzaNqZJ2rOhI9gvoRke7CC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RzaNqZJ2rOhI9gvoRke7CC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmB9oH15CARdbZ4TZ41fzy"/>
+        <rdfs:label xml:lang="en">@babel/preset-env</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#API -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#API">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Redux_Toolkit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Browser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Browser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#User_Interface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Frameworks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Frameworks">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R0vAPLDpvKS4e1aeKG3uMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Presentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Presentation">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4TAcDx7REEDk5kTEUVhv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Program">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RHiFeSPTOHWXhIhFeXJb05"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#React -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#React">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Frameworks"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Presentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Redux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Redux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#State_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Redux_Toolkit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Redux_Toolkit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Redux"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#State_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#State_Management">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4TAcDx7REEDk5kTEUVhv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#User_Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#User_Interface">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8oyXbG5cHYDVmdPSAR8IUB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#TCP/IP_Client -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#TCP/IP_Client">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCQlglwodO2bSr5OkSaKEiv"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDdYYK2zrksXb2V3QiPtOn2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_124c3fa5_616a_4bf8_a076_8eb268fed07e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+        <rdfs:label xml:lang="en">Console</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_3726faeb_40ef_48b7_9eb5_f36e472dd712">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#React"/>
+        <rdfs:label xml:lang="en">API</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729">
+        <rdfs:label xml:lang="en">Software Engineer Knowledgebase Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_6d352cc6_9453_45dd_9474_ed3b921b6121">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+        <rdfs:label xml:lang="en">Async Hooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_713b0b9b_c464_4099_9e47_1f47ef11d454">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBXFHljhXFM3drZyQSCAzjV"/>
+        <rdfs:label xml:lang="en">v8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_756c583c_d8cd_47c5_8855_61967886a98d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+        <rdfs:label xml:lang="en">Performance Hooks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_95c113b7_3263_492c_8d8a_aced6456b10c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+        <rdfs:label xml:lang="en">Debugger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#User_Interface"/>
+        <rdfs:label xml:lang="en">CLI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R75ET6y2mvn8uUoMNEE8xfl"/>
+        <rdfs:label xml:lang="en">Debugging/Metric Tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_988c3758_86b9_41b8_b26f_7d740a89c845"/>
+        <rdfs:label xml:lang="en">Terminal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b3686ffe_3232_443c_a81b_8a5f50f20c34">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDXpJ52yeh5cT6536dZ85RA"/>
+        <rdfs:label xml:lang="en">Back-end Development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b9a85e35_e071_4cf3_87e3_5b3b81c2c8c4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b27c6558_cb4d_4581_a4d7_e5daefb65820"/>
+        <rdfs:label xml:lang="en">Inspector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_bcf27470_f5ed_4fe4_ba46_7c430de34691">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_b281fd8b_a428_4041_8998_9005948a40ec"/>
+        <rdfs:label xml:lang="en">Shell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_d3bd8bf7_03ce_41ad_ab32_2ddcbffc3973">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kirill/ontologies/web-development-ontology/OWLClass_495ef01f_bbab_49ef_8f81_ddabb10a7729"/>
+        <rdfs:label xml:lang="en">Development Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#React -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#React"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Redux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kirill/ontologies/web-development-ontology#Redux"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment>One thing that I would like to see out of the box for Protege is the ability to create hierarchies not just based on the class relationships</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
 
